@@ -3,7 +3,7 @@
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "/backend/src/server.ts"
+      "dest": "/backend/api/index.ts"
     },
     {
       "src": "/(.*)",
@@ -11,7 +11,7 @@
     }
   ],
   "functions": {
-    "backend/src/server.ts": {
+    "backend/api/index.ts": {
       "maxDuration": 30
     }
   },
